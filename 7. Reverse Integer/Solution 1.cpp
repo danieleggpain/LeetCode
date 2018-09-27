@@ -1,3 +1,6 @@
+//Solution 1 simply rotates the number by mod 10 every time, while checking to make sure there is no overflow. 
+//This algorithm beats 97.93% of cpp submissions.
+
 #include <limits>
 
 class Solution {
