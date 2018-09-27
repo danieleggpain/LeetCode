@@ -1,3 +1,7 @@
+//Solution 1 utilizes a similar approach to binary search to have the least amount of calls to "isBadVersion()" 
+//  while quickly finding the first bad version. 
+//This algorithm beats 100.00% of cpp submissions.
+
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 
