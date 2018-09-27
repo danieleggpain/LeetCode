@@ -1,3 +1,8 @@
+//Solution 2 utilizes recursion when k is greater or equal to the size of the array. 
+//  When k is less than the size of the array, this algorithm uses another array to 
+//  temporarily store values to rotate k times in O(n) time. 
+//This algorithm beats 46.34% of cpp submissions.
+
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
